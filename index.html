@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль модели</title>
+</head>
+<body>
+<nav class="nav">
+    <ul class="nav__list">
+        <a href="#" class="nav__link" data-slide-index="0">
+            <img src="img/icon/photo.svg" alt="Фото" class="nav__icon">
+            Фото
+        </a>
+        <a href="#" class="nav__link" data-slide-index="1">
+            <img src="img/icon/video.svg" alt="Видео" class="nav__icon">
+            Видео
+        </a>
+        <a href="#" class="nav__link" data-slide-index="2">
+            <img src="img/icon/interior.svg" alt="Интерьер" class="nav__icon">
+            Интерьер
+        </a>
+        <a href="#" class="nav__link" data-slide-index="3">
+            <img src="img/icon/content.svg" alt="Контент" class="nav__icon">
+            Контент
+        </a>
+    </ul>
+</nav>
+<div class="swiper main-swiper">
+    <div class="swiper-scrollbar"></div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide gallery__item">
+                        <img src="img/logo.png" alt="Лого" class="logo__image">
+                        <video controls>
+                            <source src="video/mixkit-portrait-of-a-woman-in-a-pool-1259-medium.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает тег video.
+                        </video>
+                    </div>
+                    <div class="swiper-slide gallery__item">
+                        <img src="img/logo.png" alt="Лого" class="logo__image">
+                        <img src="img/main-photo.png" alt="Фото модели" class="gallery__image">
+                    </div>
+                    <div class="swiper-slide gallery__item">
+                        <img src="img/logo.png" alt="Лого" class="logo__image">
+                        <img src="img/main-photo.png" alt="Фото модели" class="gallery__image">
+                    </div>
+                    <div class="swiper-slide gallery__item">
+                        <img src="img/logo.png" alt="Лого" class="logo__image">
+                        <img src="img/main-photo.png" alt="Фото модели" class="gallery__image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper thumbnail-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider__item">
+                        <img src="img/main-photo.png" alt="Фото модели" class="slider__image">
+                        <div class="video-preview">
+                            <div class="play-icon"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <img src="img/main-photo.png" alt="Фото модели" class="slider__image">
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <img src="img/main-photo.png" alt="Фото модели" class="slider__image">
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <img src="img/main-photo.png" alt="Фото модели" class="slider__image">
+                    </div>
+                </div>
+            </div>
+            <button class="slider__arrow slider__arrow--prev">
+                <img src="img/icon/arrow-prev.svg" alt="Назад">
+            </button>
+            <button class="slider__arrow slider__arrow--next">
+                <img src="img/icon/arrow-next.svg" alt="Вперед">
+            </button>
+        </div>
+        <div class="swiper-slide">
+            Содержимое для вкладки "Видео"
+        </div>
+        <div class="swiper-slide">
+            Содержимое для вкладки "Интерьер"
+        </div>
+        <div class="swiper-slide">
+            Содержимое для вкладки "Контент"
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
